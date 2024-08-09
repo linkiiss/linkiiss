@@ -1,0 +1,289 @@
+body {
+	font-family: Kelson Sans, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #BE3C3C;
+	font-size: 1.5vw;
+}
+
+h2 {
+	font-size: 2vw;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#header-like {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	background-color: #1f2426;
+	color: #fff;
+	height: 5rem;
+	border-radius: 0 0 0.5vw 0.5vw;
+	width: 100%;
+}
+
+#logo {
+	z-index: 5;
+	margin-right: 50%;
+}
+
+#logo-link {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header-like-element-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	gap: 10%;
+}
+
+.header-like-element a {
+	width: 5vw;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	width: 90vw;
+	background-color: #E4E4E4;
+	padding: 3vw;
+	margin: 5vw 0;
+}
+
+.content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#myphoto {
+	width: 40vw;
+}
+
+#mytextphoto {
+	margin-left: 78%;
+    width: 55%;
+    position: absolute;
+    margin-bottom: 10%;
+}
+
+#mytext {
+	position: absolute;
+    margin-left: 68%;
+    width: 39vw;
+    top: 13rem;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+	margin: 1rem 5rem;
+}
+
+.section-name-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2426;
+    width: 18%;
+    height: 3rem;
+    position: absolute;
+	margin-top: -4vh;
+    left: 1%;
+}
+
+.section-name {
+	color: #BE3C3C;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	margin-top: 3rem;
+}
+
+.gallery-item-wrapper {
+	width: 100%;
+	height: 100%;
+    background-color: #1f2426;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+	cursor: pointer;
+}
+
+.gallery-item {
+	width: 100%;
+    height: auto;
+	margin: 0.5%;
+}
+
+.img-desc {
+	display: none;
+	position: absolute;
+	width: 22.7%;
+	text-align: center;
+	background-color: #BE3C3C;
+}
+
+.row1 {
+	margin-top: 12rem;
+}
+
+.row2 {
+	margin-top: 23rem;
+}
+
+.row3 {
+	margin-top: 20rem;
+}
+
+.video-wrapper {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: row;
+	margin: 3rem 0;
+}
+
+.video-name {
+	background-color: #BE3C3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 5vh;
+    position: absolute;
+    left: 8%;
+    margin-bottom: 19rem;
+	color: #fff;
+}
+
+.pskov {
+	width: 18vw;
+	height: 12vh;
+	margin-bottom: 15rem;
+}
+
+.pskov-name-text {
+	text-align: center;
+}
+
+#pskov-text {
+	width: 26vw;
+}
+
+.video-rect-under {
+	width: 20vw;
+	height: 40vh;
+	background-color: #C5C1C1;
+}
+
+.video-stick {
+	width: 40%;
+	margin: 0 5%;
+}
+
+
+.video-item {
+	width: 30vw;
+    height: auto;
+}
+
+#kitty {
+    width: 8%;
+    margin-left: 89%;
+    position: absolute;
+    margin-bottom: -17%;
+}
+
+.ppt-link {
+	text-decoration: underline;
+}
+
+.ppt-png {
+	height: auto;
+	border: 0.5vw dashed #C5C1C1;
+}
+
+
+.prof-skills {
+	width: 30vw;
+}
+
+#skills-wrapper {
+	display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.skill-item-wrapper {
+	background-color: #BE3C3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 5vh;
+	margin: 3vw;
+	border-radius: 0.3vw;
+}
+
+.medium-skill {
+	background-color: #C16666;
+}
+
+.skill-item-name {
+	
+}
+
+footer {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: row;
+	background-color: #1f2426;
+	height: 8rem;
+	border-radius: 0.5vw 0.5vw 0 0;
+	width: 100%;
+}
+
+#contact-text {
+	color: #BE3C3C;
+}
+
+#social-media {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: row;
+	gap: 5%;
+	margin-left: 1%;
+}
+
+.social-media-icon {
+	width: 1.5vw;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: "Kelson Sans";
+    src: url(KelsonSansRegularRU.otf) format("opentype");
+	
+}
