@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<link rel="icon" href="icon.ico" type="image/x-icon">
+</head>
+<body>
+ <div id="container">
+	<div id="header-like">
+		<div id="logo"><a id="logo-link" href="index.html">Linkii's</a></div>
+		<div id="header-like-element-wrapper">
+			<div class="header-like-element"><a href="#about-me">Главная</a></div>
+			<div class="header-like-element"><a href="#gallery">2D</a></div>
+			<div class="header-like-element"><a href="#video">Видео</a></div>
+			<div class="header-like-element"><a href="#my-sites">Сайты</a></div>
+			<div class="header-like-element"><a href="#contact">Контакты</a></div>
+		</div>
+	</div>
+
+	<section id="about-me">
+	  <div class="section-name-wrapper">
+		<h2 class="section-name">Обо мне</h2>
+	  </div>
+		<div class="content-wrapper">
+		<img id="myphoto" src="myphoto.png"></img>
+		<canvas id="mytextphoto"></canvas>
+		</div>
+	</section>
+
+	<section id="gallery">
+	  <div class="section-name-wrapper">
+		<h2 class="section-name">2D иллюстрации</h2>
+	  </div>
+		  <div class="gallery">
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image1.png" alt="Image 1"><div class="img-desc row1">Фон к карточной игре</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image2.png" alt="Image 2"><div class="img-desc row1">Фон к карточной игре</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image3.png" alt="Image 3"><div class="img-desc row1">Фон к карточной игре</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image4.png" alt="Image 4"><div class="img-desc row1">Кадр из анимации "Карма"</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image5.png" alt="Image 5"><div class="img-desc row2">Иллюстрация ко вселенной CUBE</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image6.png" alt="Image 6"><div class="img-desc row2">Фанатский постер к песне "Kiss the Go-goat" исполнителя Ghost</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image7.png" alt="Image 7"><div class="img-desc row2">Персонаж игры "The Evil Within 2"</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image8.png" alt="Image 8"><div class="img-desc row2">Персонаж фильма "Silent Hill"</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image9.png" alt="Image 9"><div class="img-desc row3">Картинка к оформлению поста-анонса (будучи на позиции граф. дизайнера в университете)</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image10.png" alt="Image 10"><div class="img-desc row3">Иллюстрация</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image11.png" alt="Image 11"><div class="img-desc row3">Иллюстрация "Rejection"</div></div>
+				<div class="gallery-item-wrapper"><img class="gallery-item" src="gallery/image12.png" alt="Image 12"><div class="img-desc row3">Портрет исполнителя группы Ghost</div></div>
+			</div>
+			
+	</section>
+	
+	<section id="video">
+	  <div class="section-name-wrapper">
+		<h2 class="section-name">Видео</h2>
+	  </div>
+	  
+	  <div class="video-wrapper"> 
+	  <div class="video-name"><p>Карма</p></div>
+		<div class="video-rect-under"> </div>
+		<div class="video-desc">
+			<p id="video1text">"Карма" - анимация к итоговому зачету, сделанная в Premiere Pro, про преступника, понесшего определенное наказание за свои действия</p>
+		</div>
+		<img class="video-stick" src="video-stick.svg"></img>
+		<div class="video-item-wrapper">
+			<video class="video-item ppt-png"  controls> 
+			  <source src="karma.mp4" type="video/mp4">
+			  <source src="snake.mov" type="video/mov">
+			</video>
+			
+		</div>	  
+	  </div>
+	  
+	  <div class="video-wrapper"> 
+	  <div class="video-name"><p>Python the eater</p></div>
+		<div class="video-rect-under"> </div>
+		<div class="video-desc">
+			<p id="video1text">"Python the eater" - анимация, сделанная в Premiere Pro/After Effects, про первокусников и изучение Python'а</p>
+		</div>
+		<img class="video-stick" src="video-stick.svg"></img>
+		<div class="video-item-wrapper">
+			<video class="video-item ppt-png"  controls> 
+			  <source src="snake.mp4" type="video/mp4">
+			  <source src="snake.mov" type="video/mov">
+			</video>
+			
+		</div>	  
+	  </div>
+	  
+	  
+	  
+	</section>
+
+	<section id="my-sites">
+	  <div class="section-name-wrapper">
+		<h2 class="section-name">Мои сайты</h2>
+	  </div>
+	  
+	   <div class="video-wrapper"> 
+	  <div class="video-name"><a class="ppt-link" href="https://gaslighting.glitch.me/index.htm" target="_blank">Газлайтинг</a></div>
+		<div class="video-rect-under"> </div>
+		<div class="video-desc">
+			<p id="video1text">Сайт к зачету с информацией о газлайтинге, его признаках и как с ним бороться</p>
+		</div>
+		<img class="video-stick" src="video-stick.svg"></img>
+		<div class="video-item-wrapper">
+			<img class="video-item ppt-png" src="gaslighting.png"> </img>
+			
+		</div>	  
+	  </div>
+	  
+	  <div class="video-wrapper"> 
+	  <div class="video-name pskov"><p class="pskov-name-text">Виртуальный музей Псково-Печерсково монастыря</p></div>
+		<div class="video-rect-under"> </div>
+		<div class="video-desc">
+			<p id="pskov-text">Сайт к зачету с виртуальным музеем Псково-Печерсково монастыря<br>(к сожалению, материал недоступен)</p>
+		</div>
+		<img class="video-stick" src="video-stick.svg"></img>
+		<div class="video-item-wrapper">
+			<img class="video-item ppt-png" src="pskov.png"> </img>
+			
+		</div>	  
+	  </div>
+	  
+	  <div class="video-wrapper"> 
+	  <div class="video-name pskov"><a href="https://coallittlekitty.glitch.me/index.htm" target="_blank" class="pskov-name-text ppt-link">Приключения кота-уголька</a></div>
+		<div class="video-rect-under"> </div>
+		<div class="video-desc">
+			<p >Интерактивный сайт-игра про кота, помогающего своей хозяйке</p>
+		</div>
+		<img class="video-stick" src="video-stick.svg"></img>
+		<div class="video-item-wrapper">
+			<img class="video-item ppt-png" src="coalkitty.png"> </img>
+			
+		</div>
+		<canvas id="kitty"></canvas>		
+	  </div>
+	  
+	  <div class="video-wrapper"> 
+	  <div class="video-name "><a href="https://quizup.glitch.me" target="_blank" class="ppt-link">QuizUp</a></div>
+		<div class="video-rect-under"> </div>
+		<div class="video-desc">
+			<p id="pskov-text">Сайт с квизами как групповой проект к экзамену(моя часть- проработка всего фунционала и верстка). На данный момент доступно 6 квизов</p>
+		</div>
+		<img class="video-stick" src="video-stick.svg"></img>
+		<div class="video-item-wrapper">
+			<img class="video-item ppt-png" src="quizup.png"> </img>
+			
+		</div>	  
+	  </div>
+	  
+	  
+	</section>
+
+	<section id="presentations">
+	  <div class="section-name-wrapper">
+		<h2 class="section-name">Презентации</h2>
+	  </div>
+	  
+	  <div class="video-wrapper"> 
+	  <div class="video-name"><a class="ppt-link" href="https://docs.google.com/presentation/d/1Mdgqjqn-IC0QKcYFgfD1HTOnyU8-eoLb/edit?usp=drivesdk&ouid=111448258123971397268&rtpof=true&sd=true"target="_blank">Spacio</a></div>
+		<div class="video-rect-under"> </div>
+		<div class="video-desc">
+			<p id="video1text">Презентация-обзор на браузерный инструмент для проектирования зданий</p>
+		</div>
+		<img class="video-stick" src="video-stick.svg"></img>
+		<div class="video-item-wrapper">
+			<img class="video-item ppt-png" src="spacio.png"> </img>
+			
+		</div>	  
+	  </div>
+	  
+	  
+	  <div class="video-wrapper"> 
+	  <div class="video-name"><a class="ppt-link" href="https://docs.google.com/presentation/d/1zI971hxodG8zdgtda-lZQ_3CKQ7-sNoE/edit?usp=drivesdk&ouid=111448258123971397268&rtpof=true&sd=true" target="_blank">Modelur</a></div>
+		<div class="video-rect-under"> </div>
+		<div class="video-desc">
+			<p id="video1text">Презентация-обзор на программное обеспечение для планирования места строительства и исследования реализации архитектурного проекта на его ранних стадиях </p>
+		</div>
+		<img class="video-stick" src="video-stick.svg"></img>
+		<div class="video-item-wrapper">
+			<img class="video-item ppt-png" src="modelur.png"> </img>
+			
+		</div>	  
+	  </div>
+	  
+	  
+	</section>
+
+	<section id="professional-skills">
+	  <div class="section-name-wrapper prof-skills">
+		<h2 class="section-name ">Профессиональные навыки</h2>
+	  </div>
+	  
+	  <div id="skills-wrapper">
+
+		<div class="skill-item-wrapper"> 
+			<p class="skill-item-name">English C1</p>
+		</div>	 
+		
+	    <div class="skill-item-wrapper"> 
+			<p class="skill-item-name">HTML</p>
+		</div>
+		
+		<div class="skill-item-wrapper"> 
+			<p class="skill-item-name">CSS</p>
+		</div>
+		
+		<div class="skill-item-wrapper"> 
+			<p class="skill-item-name">JavaScript</p>
+		</div>
+		
+		<div class="skill-item-wrapper"> 
+			<p class="skill-item-name">Photoshop</p>
+		</div>
+		
+		<div class="skill-item-wrapper"> 
+			<p class="skill-item-name">Premiere Pro</p>
+		</div>
+		
+		<div class="skill-item-wrapper"> 
+			<p class="skill-item-name">Procreate</p>
+		</div>
+		
+		<div class="skill-item-wrapper"> 
+			<p class="skill-item-name">Figma</p>
+		</div>
+		
+		<div class="skill-item-wrapper medium-skill"> 
+			<p class="skill-item-name">SQL</p>
+		</div>
+		
+		<div class="skill-item-wrapper medium-skill"> 
+			<p class="skill-item-name">Tilda</p>
+		</div>
+	  
+	  </div>
+	</section>
+	
+	<footer id ="contact"> 
+		
+		<p id="contact-text">Angelina Mejevnikova 2024 | &nbsp</p>
+		<p id="contact-text">Связаться со мной - </p>
+		<div id="social-media">
+			<a href="https://t.me/linkii001" target="_blank"><img class="social-media-icon" src="tg.svg"></img></a>		
+			<a href="https://vk.com/linamejevnikova" target="_blank"><img class="social-media-icon" src="vk.svg"></img></a>			
+			<a href="https://hh.ru/resume/acfd285bff0cd5019f0039ed1f4a7549674d32" target="_blank"><img class="social-media-icon" src="hh.svg"></img></a>			
+			<a href="https://github.com/linkiiss" target="_blank"><img class="social-media-icon" src="git.svg"></img></a>			
+			<a href="https://www.artstation.com/linkii001" target="_blank"><img class="social-media-icon" src="artstation.svg"></img></a>			
+		</div>
+	
+	</footer>
+</div>
+</body>
+</html>
