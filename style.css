@@ -100,7 +100,7 @@ section {
     align-items: center;
     background-color: #1f2426;
     width: 18%;
-    height: 3rem;
+    height: 6vh;
     position: absolute;
 	margin-top: -4vh;
     left: 1%;
@@ -169,15 +169,15 @@ section {
     width: 12vw;
     height: 5vh;
     position: absolute;
-    left: 8%;
-    margin-bottom: 19rem;
+    left: 4%;
+    margin-bottom: 16vh;
 	color: #fff;
 }
 
 .pskov {
 	width: 18vw;
-	height: 12vh;
-	margin-bottom: 15rem;
+	height: 11vh;
+	margin-bottom: 20vh;
 }
 
 .pskov-name-text {
@@ -188,10 +188,15 @@ section {
 	width: 26vw;
 }
 
+.video-desc  {
+	margin-top: 2vh;
+}
+
 .video-rect-under {
 	width: 20vw;
 	height: 40vh;
 	background-color: #C5C1C1;
+	display: none;
 }
 
 .video-stick {
